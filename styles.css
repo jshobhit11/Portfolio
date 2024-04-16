@@ -1,0 +1,54 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+section {
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+section #projects {
+}
+section #skills {
+  display: flex-end;
+  align-items: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+#photo {
+  text-align: center;
+}
+
+#photo img {
+  width: 200px; /* Adjust size as needed */
+  border-radius: 50%; /* Make the photo round */
+}
